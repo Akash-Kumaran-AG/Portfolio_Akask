@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>ACHIEVEMENTS</title>
+        <style>
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 30px;
+            }
+            img {
+                border-radius: 10%;
+                opacity: 0.9;
+                margin-left: 150px;
+                height: 250px;
+                width: 400px;
+            }
+            img:hover {
+                opacity: 1;
+            }
+            .desc {
+                align-items: center;
+                border-style: solid;
+                border-radius: 10px;
+                background-color: white;
+                height: 150px;
+                width: 400px;
+                padding: 10px;
+                margin-left: 150px;
+                box-shadow: 0px 0px 10px rgb(255, 254, 254);
+            }
+            body {
+                text-align: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: rgb(0, 0, 0);
+            }
+            h2 {
+                color: rgb(7, 0, 0);
+                font-family: Arial, Helvetica, sans-serif;
+                padding-top: 50px;
+            }
+            p
+            {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+           
+            img {
+                border: 2px solid;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+            }
+            @keyframes slideInFromLeft {
+                from {
+                    transform: translateX(-100%);
+                }
+                to {
+                    transform: translateX(0);
+                }
+            } 
+
+            @keyframes slideInFromRight {
+                from {
+                    transform: translateX(100%);
+                }
+                to {
+                    transform: translateX(0);
+                }
+            }
+
+            img {
+                display: flex;
+                align-items: center;
+                animation: slideInFromLeft 1s ease-in-out;
+            }
+
+            .desc {
+                animation: slideInFromRight 1s ease-in-out;
+            }
+
+        </style>
+    </head>
+    <body>
+        <center>
+            <h2>MY ACHIEVEMENTS</h2>
+        </center>
+        <div>
+            <div class="container">
+                <img src="LC 200.png">
+                <div class="desc">
+                    <p><center>LEETCODE 200</center> <br>&nbsp&nbspSolved 200 LeetCode problems, honing problem-solving skills and mastering algorithms to tackle complex coding challenges</p></div>
+            </div>
+
+            
+            <div class="container">
+                <img src="data:image/png;base64,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">
+                <div class="desc"><p>
+                    <center>5 Star Gold badge on HackerRank</center><br>
+                    <p>       Recieved 5 Star Gold badge on HackerRank for 
+    Java programming</p>
+                </p></div>
+            </div>
+            
+            <div class="container">
+                <img src="python_5star.jpeg">
+                <div class="desc"><p>
+                    <center>5 Star Gold badge on HackerRank</center><br>
+                    <p>       Recieved 5 Star Gold badge on HackerRank for Python programming</p>
+                </p>
+                </div>
+            </div>
+                
+            <div class="container">
+                <img src="Hackerank_badges.png">
+                <div class="desc"><p><center>HackerRank<br><br></center> <br>&nbsp&nbsp&nbsp&nbsp More than that a 3 Star silver badge on HackerRank for Problem Solving and CPP.</p></div>
+            </div>
+
+            <div class="container">
+                <img src="python.png">
+                <div class="desc"><p><center>HackerRank Certificate<br><br></center> <br>Recieved a verified certificate for Python(Basic) on Hackerank platform.</p></div>
+            </div>
+
+            <div class="container">
+                <img src="java.png">
+                <div class="desc"><p><center>HackerRank Certificate<br><br></center> <br>Recieved a verified certificate for Java(Basic) on Hackerank platform. </p></div>
+            </div>
+        </div>
+    </body>

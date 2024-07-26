@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    .container
+    {
+        display: flex;
+        padding-top: 300px;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-bottom: 100px;
+    }
+    nav{
+        background-color: wheat;
+        border: wheat solid;
+        margin-top: 7px;
+        border-radius: 30px;
+        float: right;
+        display: flex;
+        animation: slidetop 0.5s ease-in forwards;
+    }
+    @keyframes slidetop
+    {
+        0%{
+            transform: translateY(-100px);
+            opacity: 0;
+        }   
+        100%
+        {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    nav>a
+    {
+        color: rgb(0, 0, 0);
+        margin: 10px;
+        border-radius: 10px;
+        right: 10px;
+        text-decoration: none;
+    }
+    nav>a:hover
+    {
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        transition: 0.2s;
+    }
+    a{
+        padding: 5px 5px 5px 5px;
+    }
+    li{
+        padding-left: 70px;
+        display: inline-flex;
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    #social a
+    {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;   
+    height: 40px;
+    border: 2px solid #0ef;
+    border-radius: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0ef;
+    margin-left: 30px;
+    transition: .5s ease;   
+    margin-top: -90px;
+    }
+    #social a:hover{
+        background: #0ef;
+        color: black;
+        box-shadow:0 0 20px #0ef;
+    }
+</style>
+<body style="background-color: black; color: aliceblue;">
+    <li>PORTFOLIO</li>
+    <nav style=" width: 350px;" >
+    <a href="mern_portfolio.html" style="--i:1;">Home</a>
+    <a href="achivements.html" style="--i:2;">Acheivements</a>
+    <a href="" style="--i:3;">Skills</a>
+    <a href="about.html" style="--i:4;">About</a>
+    </nav><br><br>
+<hr style="border: 1px rgb(255, 255, 255) solid;">
+<div class="container">
+<div id="cen" style="background-color: rgb(32, 34, 33); width: 800px;padding-left: 10px; ">
+    <pre style="font-size: 50px;">Hi,
+  <span style="font-size: 30px;">I'm Akash Kumaran</span></pre>
+</div>
+<div id="cen" style="background-color: blue; width: 800px; float: right; padding: 50px;">&nbsp;&nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum odit consequatur sed autem sequi voluptas soluta veniam nam velit at labore amet assumenda fuga, illo non perspiciatis? Voluptatum nulla, commodi minima corrupti eos inventore delectus magni similique quibusdam cumque odit ipsam excepturi nobis enim distinctio eveniet. At, nihil harum.</div></div>
+<div id="social" class="w3-container w3-center w3-animate-zoom" style="padding-left: 130px;">     
+    <a href="#"><i class='bx bxl-twitter'></i></a>
+    <a href="#"><i class='bx bxl-linkedin'></i></a>
+    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+    <a href="#"><i class='bx bxl-gmail'></i></a>
+    <a href="#"><i class='bx bxl-facebook'></i></a>
+</div>
+<footer style="text-align: center; bottom: 10px;">&copy Copyrights reserved</footer>
+</body>
+</html>
